@@ -1,0 +1,421 @@
+{
+  "detected_by": "Claude Opus 5.5 (frames reviewed in a Claude Code session, not via API)",
+  "asset_type": "building",
+  "credits": [
+    "Footage: \"U.S. Navy conducts damage assessments in the U.S. Virgin Islands\", US Navy, 13 Sept 2017, via Wikimedia Commons (CC BY 3.0)."
+  ],
+  "frames": {
+    "frame_0001.jpg": {
+      "scene": "Coral Bay hillside, St. John: multi-storey homes among stripped, defoliated vegetation; debris everywhere.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Hurricane debris field across hillside homes",
+          "component": "hillside residential area",
+          "description": "Roofing sheets, timber and building fragments are scattered across the whole hillside between the homes. Much of this can be picked up by the next strong wind, and it blocks paths and drainage.",
+          "visual_evidence": "Hundreds of white and grey fragments and broken timber spread over the brown slope and along the road.",
+          "extent": "Whole hillside in view, hundreds of metres",
+          "bbox": [
+            0.0,
+            0.25,
+            1.0,
+            0.95
+          ],
+          "suggested_fix": "Clear loose roofing sheets, timber and debris from around occupied homes and roads first; separate hazardous material for proper disposal.",
+          "visibility": "clear"
+        },
+        {
+          "label": "House with roof and upper structure torn open",
+          "component": "multi-storey house, upper right",
+          "description": "A multi-storey house has lost part of its roof and upper walls, leaving the upper floor open to the weather.",
+          "visual_evidence": "Missing roof sections and exposed interior on the top floor, debris spilling down the slope below.",
+          "extent": "1 house, top floor",
+          "bbox": [
+            0.86,
+            0.15,
+            0.97,
+            0.34
+          ],
+          "suggested_fix": "Tarp the opening to stop rain getting in, keep people out of the top floor until an engineer checks the roof framing, then re-roof with hurricane-rated fixings.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0002.jpg": {
+      "scene": "Coral Bay hillside, closer: several houses, a heavy debris slope, a crew member in the foreground.",
+      "image_quality": "obstructed",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Roof blown off, top-floor framing exposed",
+          "component": "two-storey house, centre",
+          "description": "The roof of this house is gone and the top floor's walls and framing are exposed.",
+          "visual_evidence": "Brown exposed framing and open walls where the roof should be; roofing debris on the slope below.",
+          "extent": "1 house, whole roof",
+          "bbox": [
+            0.4,
+            0.19,
+            0.51,
+            0.33
+          ],
+          "suggested_fix": "Tarp the opening to stop rain getting in, keep people out of the top floor until an engineer checks the roof framing, then re-roof with hurricane-rated fixings.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Hurricane debris field across hillside homes",
+          "component": "hillside residential area",
+          "description": "Heavy debris covers the slope between the houses: roofing sheets, timber and building pieces.",
+          "visual_evidence": "Dense scatter of timber and sheet fragments across the slope.",
+          "extent": "Most of the frame",
+          "bbox": [
+            0.08,
+            0.25,
+            0.8,
+            0.66
+          ],
+          "suggested_fix": "Clear loose roofing sheets, timber and debris from around occupied homes and roads first; separate hazardous material for proper disposal.",
+          "visibility": "clear"
+        },
+        {
+          "label": "House largely destroyed",
+          "component": "house, upper right",
+          "description": "A house at the top right has lost its roof and most of its upper structure.",
+          "visual_evidence": "Only parts of walls and a platform remain; debris around it.",
+          "extent": "1 house",
+          "bbox": [
+            0.72,
+            0.1,
+            0.8,
+            0.21
+          ],
+          "suggested_fix": "Placard the building unsafe and keep people out until a structural engineer assesses it; plan demolition if beyond repair.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0004.jpg": {
+      "scene": "Coral Bay harbour: waterfront, boatyard and anchorage below the hillside settlement.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Boats wrecked and piled up along the harbour shore",
+          "component": "Coral Bay harbour waterfront and boatyard",
+          "description": "Dozens of boats have been driven ashore, sunk or piled together along the harbour edge and in the boatyard. Wrecked boats leak fuel and oil and block the waterfront.",
+          "visual_evidence": "Tight clusters of white hulls on the shore and in shallow water, some capsized, next to the waterfront buildings.",
+          "extent": "Along ~300 m of shoreline",
+          "bbox": [
+            0.33,
+            0.48,
+            0.78,
+            0.66
+          ],
+          "suggested_fix": "Boom off leaking vessels, survey the harbour for sunken hazards, and organise vessel salvage before reopening the waterfront.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0005.jpg": {
+      "scene": "Coral Bay from higher up: ballfield, harbour and a large ruined building beside the road.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Large building reduced to roofless walls",
+          "component": "large masonry building near the ballfield",
+          "description": "A large building next to the ballfield has lost its whole roof and some walls; only the masonry shell is standing.",
+          "visual_evidence": "White and cream wall remnants with no roof, rubble around the base.",
+          "extent": "1 large building",
+          "bbox": [
+            0.18,
+            0.5,
+            0.29,
+            0.61
+          ],
+          "suggested_fix": "Fence off a fall zone around the remaining walls, get a structural engineer's safety evaluation, and decide on stabilisation or demolition.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Waterfront debris and damaged boatyard",
+          "component": "waterfront by the harbour",
+          "description": "The waterfront area is covered in debris and damaged boats and structures.",
+          "visual_evidence": "Mass of white and grey debris along the shore.",
+          "extent": "~300 m of waterfront",
+          "bbox": [
+            0.34,
+            0.49,
+            0.98,
+            0.61
+          ],
+          "suggested_fix": "Clear loose roofing sheets, timber and debris from around occupied homes and roads first; separate hazardous material for proper disposal.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0006.jpg": {
+      "scene": "Hillside above the ballfield; ruined large building and destroyed homes by the road.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Large building reduced to roofless walls",
+          "component": "large masonry building near the ballfield",
+          "description": "Closer view of the same ruined building: roof gone, walls partly collapsed.",
+          "visual_evidence": "Standing masonry walls with no roof; debris field beside it.",
+          "extent": "1 large building",
+          "bbox": [
+            0.7,
+            0.5,
+            0.82,
+            0.62
+          ],
+          "suggested_fix": "Fence off a fall zone, then structural evaluation.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Homes destroyed beside the main road",
+          "component": "homes along the road, lower right",
+          "description": "A group of buildings by the road is largely destroyed, with debris spread onto the verge.",
+          "visual_evidence": "Broken structures and a scatter of coloured debris next to the road.",
+          "extent": "2-3 buildings",
+          "bbox": [
+            0.8,
+            0.77,
+            0.93,
+            0.87
+          ],
+          "suggested_fix": "Clear debris from the road verge and placard the buildings.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0008.jpg": {
+      "scene": "Wide view of hillside neighbourhood above Coral Bay.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Widespread damage across hillside neighbourhood",
+          "component": "scattered homes across the hillside",
+          "description": "Across this neighbourhood many homes show missing roofs and debris fields around them; the damage is spread over the whole area, not just a few houses.",
+          "visual_evidence": "Many small buildings with light-coloured debris around them across the brown slope.",
+          "extent": "Dozens of homes over roughly 1 km2",
+          "bbox": [
+            0.2,
+            0.25,
+            0.95,
+            0.98
+          ],
+          "suggested_fix": "Do a house-by-house rapid safety evaluation (ATC-45 style) to find unsafe homes and people needing shelter.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0009.jpg": {
+      "scene": "Cruz Bay: waterfront apartment blocks, beach and harbour; most roofs intact.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Debris washed up along the beach and waterfront",
+          "component": "Cruz Bay beach and seawall",
+          "description": "Debris has collected along the beach and at the base of the waterfront buildings.",
+          "visual_evidence": "Pile of timber, fronds and fragments along the top of the beach below the buildings.",
+          "extent": "~100 m of beach",
+          "bbox": [
+            0.45,
+            0.55,
+            0.72,
+            0.68
+          ],
+          "suggested_fix": "Clear loose roofing sheets, timber and debris from around occupied homes and roads first; separate hazardous material for proper disposal.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Boat stranded on the beach",
+          "component": "Cruz Bay beach",
+          "description": "A boat has been driven up onto the beach.",
+          "visual_evidence": "White hull lying on the sand at the water's edge.",
+          "extent": "1 boat",
+          "bbox": [
+            0.23,
+            0.81,
+            0.33,
+            0.88
+          ],
+          "suggested_fix": "Check the hull for fuel leaks and have it salvaged.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0011.jpg": {
+      "scene": "Cruz Bay town streets: mix of intact and damaged roofs; debris on the hillside behind.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Roof stripped to exposed rafters",
+          "component": "teal two-storey building, lower centre",
+          "description": "This building's roof covering has been torn off, leaving the rafters exposed to the weather.",
+          "visual_evidence": "Bare roof framing with no sheeting on a teal-walled building.",
+          "extent": "1 roof",
+          "bbox": [
+            0.44,
+            0.7,
+            0.53,
+            0.8
+          ],
+          "suggested_fix": "Tarp the opening to stop rain getting in, keep people out of the top floor until an engineer checks the roof framing, then re-roof with hurricane-rated fixings.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Roof stripped to exposed rafters",
+          "component": "building at the bottom of the frame",
+          "description": "A second building nearby also has its roof framing exposed.",
+          "visual_evidence": "Bare rafters with no roof covering.",
+          "extent": "1 roof",
+          "bbox": [
+            0.3,
+            0.89,
+            0.4,
+            1.0
+          ],
+          "suggested_fix": "Tarp the opening to stop rain getting in, keep people out of the top floor until an engineer checks the roof framing, then re-roof with hurricane-rated fixings.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Cluster of small structures collapsed",
+          "component": "small buildings and sheds, centre",
+          "description": "A group of small buildings and sheds in the middle of the block has collapsed or lost its roofs, leaving a jumble of sheets and timber.",
+          "visual_evidence": "Tangle of roof sheets, timber and broken walls between two larger buildings.",
+          "extent": "Block of ~5 small structures",
+          "bbox": [
+            0.37,
+            0.47,
+            0.54,
+            0.7
+          ],
+          "suggested_fix": "Keep people out; clear the collapsed material and check for anyone sheltering there.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0012.jpg": {
+      "scene": "Cruz Bay hillside above the harbour; the water tank is partly visible at left.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Building roof gone, interior exposed",
+          "component": "two-storey building, top centre",
+          "description": "This building has lost its roof and the upper rooms are open to the sky.",
+          "visual_evidence": "Orange-brown interior walls visible from above where the roof should be.",
+          "extent": "1 building",
+          "bbox": [
+            0.36,
+            0.02,
+            0.46,
+            0.13
+          ],
+          "suggested_fix": "Tarp the opening to stop rain getting in, keep people out of the top floor until an engineer checks the roof framing, then re-roof with hurricane-rated fixings.",
+          "visibility": "clear"
+        },
+        {
+          "label": "House damaged with debris around the lower floor",
+          "component": "house, centre right",
+          "description": "The lower part of this house is damaged and debris is piled around it.",
+          "visual_evidence": "Broken lower walls and a heap of debris beside the house.",
+          "extent": "1 house",
+          "bbox": [
+            0.54,
+            0.44,
+            0.7,
+            0.68
+          ],
+          "suggested_fix": "Clear loose roofing sheets, timber and debris from around occupied homes and roads first; separate hazardous material for proper disposal.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Informal structures with damaged roofs",
+          "component": "small buildings, right edge",
+          "description": "A row of small informal buildings on the right has damaged or missing roofing.",
+          "visual_evidence": "Crumpled and missing roof sheets on low structures.",
+          "extent": "Several small structures",
+          "bbox": [
+            0.87,
+            0.33,
+            1.0,
+            0.56
+          ],
+          "suggested_fix": "Tarp the opening to stop rain getting in, keep people out of the top floor until an engineer checks the roof framing, then re-roof with hurricane-rated fixings.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0013.jpg": {
+      "scene": "Cruz Bay: large steel water storage tank on the hillside above the harbour, surrounded by homes.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Public water storage tank needs post-storm inspection",
+          "component": "steel water storage tank",
+          "description": "The large steel water tank that supplies the area has no obvious damage to its shell from the air, but the handrail or equipment on its roof looks bent, and debris lies around its base. Hurricane winds can damage tank roofs and vents where contamination gets in.",
+          "visual_evidence": "Intact cylindrical shell; a bent-looking rail or frame on the roof edge; scattered debris at the base.",
+          "extent": "1 tank",
+          "bbox": [
+            0.37,
+            0.43,
+            0.55,
+            0.78
+          ],
+          "suggested_fix": "Have the utility inspect the tank roof, hatches and vents for openings, and test the stored water before it goes back into supply.",
+          "visibility": "uncertain"
+        },
+        {
+          "label": "Building roof gone, interior exposed",
+          "component": "two-storey building, top centre",
+          "description": "The same roofless building seen from another angle.",
+          "visual_evidence": "Open interior walls from above.",
+          "extent": "1 building",
+          "bbox": [
+            0.58,
+            0.0,
+            0.7,
+            0.12
+          ],
+          "suggested_fix": "Tarp the opening to stop rain getting in, keep people out of the top floor until an engineer checks the roof framing, then re-roof with hurricane-rated fixings.",
+          "visibility": "clear"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "overall_condition": "Critical",
+    "summary": "US Navy helicopter footage filmed on 13 September 2017, one week after Hurricane Irma, over Coral Bay and Cruz Bay on St. John, US Virgin Islands. Damage is widespread rather than isolated: across the Coral Bay hillsides many homes have lost roofs or upper floors ({{House with roof}}, {{Roof blown off}}, {{Widespread damage}}), some are largely destroyed ({{House largely destroyed}}, {{Homes destroyed}}), and a large masonry building near the ballfield is reduced to roofless walls ({{Large building}}). Debris covers the slopes between homes ({{debris field}}) and dozens of boats are wrecked along the harbour shore ({{Boats wrecked}}). In Cruz Bay most larger buildings kept their roofs, but several roofs are stripped to the rafters ({{Roof stripped}}) or gone ({{Building roof gone}}), and a cluster of small structures has collapsed ({{Cluster of small}}). The public water storage tank shows no obvious shell damage from the air but needs inspection before its water is trusted ({{water storage tank}}). Nearly every finding is P1 because this is an active disaster zone; life safety comes first.",
+    "key_risks": [
+      "People sheltering in or entering damaged buildings that could collapse ({{House largely destroyed}}, {{Large building}}, {{Cluster of small}}).",
+      "Open roofs letting rain destroy what is left of homes and create mould ({{Roof blown off}}, {{Roof stripped}}, {{Building roof gone}}).",
+      "Loose debris becoming projectiles in the next storm and blocking roads and drainage ({{debris field}}).",
+      "Fuel and oil leaking from wrecked boats into the harbour ({{Boats wrecked}}, {{Boat stranded}}).",
+      "Drinking water contamination if the tank roof or vents were damaged ({{water storage tank}})."
+    ],
+    "immediate_actions": [
+      "Run house-by-house rapid safety evaluations and placard unsafe buildings; move residents of unsafe homes to shelter ({{Widespread damage}}).",
+      "Fence off the ruined masonry building and destroyed homes ({{Large building}}, {{House largely destroyed}}, {{Homes destroyed}}).",
+      "Tarp open roofs on occupied homes before the next rain ({{Roof blown off}}, {{Roof stripped}}, {{Building roof gone}}).",
+      "Inspect the water tank roof, hatches and vents and test the water before use ({{water storage tank}}).",
+      "Boom off leaking vessels in Coral Bay harbour ({{Boats wrecked}})."
+    ],
+    "next_30_days": [
+      "Clear debris from roads, drains and around homes, separating hazardous material ({{debris field}}, {{Debris washed up}}).",
+      "Salvage wrecked and stranded boats and survey the harbour for sunken hazards ({{Boats wrecked}}, {{Boat stranded}}).",
+      "Engineer's decision on repair versus demolition for each destroyed building."
+    ],
+    "next_90_days": [
+      "Re-roof damaged homes with hurricane-rated fixings; prioritise occupied homes and community buildings.",
+      "Re-fly the same routes to track recovery and confirm buildings are weather-tight before the next storm season."
+    ]
+  }
+}

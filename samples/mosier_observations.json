@@ -1,0 +1,250 @@
+{
+  "detected_by": "Claude Opus 5.5 (frames reviewed in a Claude Code session, not via API)",
+  "asset_type": "oil_gas",
+  "frames": {
+    "frame_0001.jpg": {
+      "scene": "Title card from the Coast Guard video; no imagery of the site.",
+      "image_quality": "obstructed",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0002.jpg": {
+      "scene": "A line of black crude-oil tank cars on an embankment beside a still pond, seen from a helicopter.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Yellow-green streaks on pond next to tank-car train",
+          "component": "pond surface beside rail embankment",
+          "description": "Long yellow-green streaks and patches float on the pond right next to the embankment where loaded crude tank cars are standing. They could be an oil sheen from the train, but they look equally like pollen or algae, which is common on still water in early June.",
+          "visual_evidence": "Diffuse yellow-green bands on blue reflective water, no rainbow iridescence and no dark oil at the shoreline; resolution too low (512x288) to tell sheen from pollen.",
+          "extent": "Streaks across roughly the western half of the visible pond, tens of metres",
+          "bbox": [
+            0.0,
+            0.33,
+            0.46,
+            0.95
+          ],
+          "suggested_fix": "Have the spill response team check this pond with a sheen net or water sample before ruling out a release from the train.",
+          "visibility": "uncertain"
+        }
+      ]
+    },
+    "frame_0003.jpg": {
+      "scene": "Tank cars standing on the track through a wooded area; no visible damage on this section.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0004.jpg": {
+      "scene": "Derailment site from a distance: burning cars at top-left, the rest of the train intact on the track to the right, a white trailer and a small group of vehicles or people on the road at lower left.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Crude oil fire on derailed tank cars",
+          "component": "crude oil tank cars at the derailment point",
+          "description": "Several tank cars are on fire with open flames at three or more points and heavy dark smoke rising. The burning cars sit out of line with the track, so they have derailed.",
+          "visual_evidence": "Bright orange flames at several places along a cluster of dark tank cars, black smoke rising above them, cars at odd angles to the rails.",
+          "extent": "Flames along about 4-6 car lengths",
+          "bbox": [
+            0.08,
+            0.0,
+            0.38,
+            0.25
+          ],
+          "suggested_fix": "Keep the evacuation zone in place, let foam-equipped crews manage the fire, and cool the unburned tank cars next to it with water to stop them from overheating and rupturing.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Intact tank cars close to the fire",
+          "component": "undamaged tank cars on the track next to the burning section",
+          "description": "The next tank cars down the line are still on the rails and look intact, but they sit only a few car lengths from the fire and are exposed to its heat.",
+          "visual_evidence": "Two groups of black tank cars upright on the track, the nearest roughly 2-4 car lengths from visible flames.",
+          "extent": "At least 6 cars within a few car lengths of the fire",
+          "bbox": [
+            0.33,
+            0.25,
+            0.78,
+            0.5
+          ],
+          "suggested_fix": "Uncouple and pull the intact cars away from the fire once it is safe, or keep them cooled with water until they can be moved.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0005.jpg": {
+      "scene": "Wooded hillside with houses; the camera is between shots of the incident. No defects visible.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0006.jpg": {
+      "scene": "Closer view of the burning cars: a tall black smoke plume on the left, flames at the base, derailed cars and a line of cars stretching right along the track.",
+      "image_quality": "blurry",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Crude oil fire with tall black smoke plume",
+          "component": "burning crude oil tank cars",
+          "description": "A large fire at the base of the derailed cars sends a thick black smoke column higher than the top of the frame. Black smoke means crude oil is burning.",
+          "visual_evidence": "Bright orange flames at the bottom left, dense black smoke column rising out of the frame, lighter smoke drifting to the right.",
+          "extent": "Flames about 2-3 car lengths wide; plume taller than the frame",
+          "bbox": [
+            0.02,
+            0.0,
+            0.28,
+            0.84
+          ],
+          "suggested_fix": "Keep responders upwind and out of the smoke; fight with foam, not water jets, on burning oil.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Derailed tank cars jackknifed beside the fire",
+          "component": "derailed tank cars",
+          "description": "Two or three tank cars are tilted and pushed off the rail line next to the flames.",
+          "visual_evidence": "Car bodies at steep angles to the track, one visibly tipped, lit by the fire next to them.",
+          "extent": "2-3 cars",
+          "bbox": [
+            0.26,
+            0.66,
+            0.41,
+            0.81
+          ],
+          "suggested_fix": "Once the fire is out, inspect each tipped car for shell punctures and valve damage before rerailing or moving product.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0007.jpg": {
+      "scene": "The clearest view: black plume and flames in the middle, several tank cars jackknifed in a zig-zag to the right, white smoke drifting over houses at top left.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Derailed tank cars in zig-zag, several on their sides",
+          "component": "derailed crude oil tank cars",
+          "description": "About six tank cars have jackknifed into a zig-zag off the track, several lying at steep angles or on their sides. Tank cars in this position can have punctured shells, sheared valves or damaged fittings.",
+          "visual_evidence": "Cylindrical tank car bodies at sharp alternating angles, some lying almost across the track, directly next to the fire.",
+          "extent": "About 6 cars over roughly 100 m of track",
+          "bbox": [
+            0.63,
+            0.46,
+            0.95,
+            0.61
+          ],
+          "suggested_fix": "After the fire is out, check every derailed car for leaks, transfer the remaining oil to undamaged tanks, then rerail or remove the cars and repair the track.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Crude oil fire with black smoke column",
+          "component": "burning tank cars at the head of the derailment",
+          "description": "Flames reach several metres high at the derailment and a dense black smoke column rises straight up out of the frame.",
+          "visual_evidence": "Bright orange flames and a column of black smoke rising from the burning cars, with debris scattered at their base.",
+          "extent": "Flames across about 2-3 car lengths",
+          "bbox": [
+            0.48,
+            0.0,
+            0.66,
+            0.62
+          ],
+          "suggested_fix": "Keep foam-equipped crews on the fire and cool the nearby tank cars with water until the fire is fully out.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Smoke drifting over nearby homes",
+          "component": "residential houses near the rail line",
+          "description": "White and grey smoke is drifting across a row of houses at the top left, a short distance from the fire. People living there may be breathing it.",
+          "visual_evidence": "Roofs and houses at the top-left corner partly hidden by a white smoke haze coming from the fire.",
+          "extent": "Several houses under the smoke",
+          "bbox": [
+            0.0,
+            0.0,
+            0.33,
+            0.28
+          ],
+          "suggested_fix": "Keep the evacuation or shelter-in-place order for these homes, and monitor air quality there until the fire is out.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0008.jpg": {
+      "scene": "Columbia River shoreline below the rail line and highway. No sheen or stains visible on the water at this resolution.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0009.jpg": {
+      "scene": "River shoreline and rail line further along. No sheen or stains visible.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0010.jpg": {
+      "scene": "River shoreline and rail line. No sheen or stains visible.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0011.jpg": {
+      "scene": "Hillside, rail line and river. No defects visible.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0012.jpg": {
+      "scene": "Town of Mosier beside the rail line and a pond; a long train on the track. No defects visible; shows homes close to the tracks.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0013.jpg": {
+      "scene": "Rail yard with rows of freight cars, highway bridge in the foreground. No defects visible.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0014.jpg": {
+      "scene": "Rail yard and highway through the helicopter window. No defects visible.",
+      "image_quality": "obstructed",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0015.jpg": {
+      "scene": "Closing title card; no imagery of the site.",
+      "image_quality": "obstructed",
+      "is_thermal": false,
+      "observations": []
+    }
+  },
+  "summary": {
+    "overall_condition": "Critical",
+    "summary": "Aerial footage filmed by a US Coast Guard helicopter on 3 June 2016 shows an active derailment of a crude-oil unit train at Mosier, Oregon. Several derailed tank cars are burning with a dense black smoke column ({{Crude oil fire}}), about six more are jackknifed off the track beside the fire ({{Derailed tank cars}}), and smoke is drifting over nearby homes ({{Smoke drifting}}). Intact tank cars on the same track sit within a few car lengths of the flames and are exposed to its heat ({{Intact tank cars}}). A pond beside the stationary train shows yellow-green streaks that could be an oil sheen but look equally like pollen or algae ({{Yellow-green streaks}}); it needs a water check before any conclusion. No oil could be seen on the Columbia River in the footage, but the video's low resolution (512x288) means a thin sheen could be missed.",
+    "key_risks": [
+      "{{Crude oil fire}}: Burning crude-oil tank cars; fire can spread to neighbouring cars and heat-exposed tanks can rupture.",
+      "{{Intact tank cars}}: Intact, loaded tank cars a few car lengths from the fire; cooling them is critical.",
+      "{{Smoke drifting}}: Smoke from burning crude drifting over homes; residents' exposure.",
+      "{{Derailed tank cars}}: About six derailed tank cars may have punctured shells or damaged valves once the fire is out.",
+      "{{Yellow-green streaks}}: Possible release reaching surface water next to the rail line (unconfirmed)."
+    ],
+    "immediate_actions": [
+      "Keep the evacuation / shelter-in-place zone around the fire and downwind homes ({{Crude oil fire}}, {{Smoke drifting}}).",
+      "Fight the fire with foam and cool the adjacent intact tank cars with water ({{Crude oil fire}}, {{Intact tank cars}}).",
+      "Monitor air quality in the homes under the smoke ({{Smoke drifting}}).",
+      "Put booms and berms between the derailment and nearby water and drains to catch oil and firefighting runoff.",
+      "Sample the pond beside the train with a sheen net or water sample ({{Yellow-green streaks}})."
+    ],
+    "next_30_days": [
+      "Inspect every derailed and heat-exposed tank car for leaks; offload remaining crude to sound tanks before moving them ({{Derailed tank cars}}, {{Intact tank cars}}).",
+      "Remove the damaged cars, excavate contaminated soil and repair the track.",
+      "Survey the Columbia River shoreline downstream on foot or by boat for sheen, since this video's resolution can't rule it out."
+    ],
+    "next_90_days": [
+      "Complete soil and water monitoring at the site and pond, and close out regulatory reporting.",
+      "Re-fly the site with a high-resolution drone camera to confirm cleanup and track restoration."
+    ]
+  },
+  "credits": [
+    "Footage: \"Coast Guard aircrew conducts overflight near oil train derailment\", PO1 Levi Read, US Coast Guard 13th District, 3 June 2016. Public domain, via Wikimedia Commons."
+  ]
+}

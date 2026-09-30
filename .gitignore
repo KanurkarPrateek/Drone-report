@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.DS_Store
+.env
+runs/
+# Reports: keep the published samples, ignore everything else
+out/*
+!out/*_report.pdf
+out/demo_*
+# Videos are too large for git; see samples/SOURCES.md to download them
+samples/*.webm
+samples/*.mp4
+samples/*.ogv
+out/construction_site_report.pdf

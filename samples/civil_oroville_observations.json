@@ -1,0 +1,221 @@
+{
+  "detected_by": "Claude Opus 5.5 (frames reviewed in a Claude Code session, not via API)",
+  "asset_type": "civil",
+  "credits": [
+    "Footage: \"Lake Oroville Spillways February 12, 2017\", California Department of Water Resources, via Wikimedia Commons (public domain)."
+  ],
+  "frames": {
+    "frame_0001.jpg": {
+      "scene": "Main spillway chute releasing water; a huge plume and a crater where the flow leaves the broken chute mid-slope.",
+      "image_quality": "blurry",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Main spillway chute broken mid-slope",
+          "component": "Oroville main (gated) spillway concrete chute",
+          "description": "The concrete chute of the main spillway has failed part-way down. Water leaves the chute through the break and pours into a large eroded crater in the hillside, throwing up a spray plume.",
+          "visual_evidence": "Chute ends abruptly mid-slope; white water and spray pouring into a dark rock crater beside and below the chute.",
+          "extent": "Break of tens of metres; crater much larger",
+          "bbox": [
+            0.33,
+            0.1,
+            0.9,
+            0.7
+          ],
+          "suggested_fix": "Keep everyone out of the spillway area and downstream channel; reduce releases where possible, and have dam-safety engineers assess the chute and foundation before any repair.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0002.jpg": {
+      "scene": "Side view of the main spillway: flow in the chute, crater eroded into the hillside, transmission towers above.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Main spillway chute broken mid-slope",
+          "component": "Oroville main spillway chute",
+          "description": "Clear side view of the break: the chute is intact above, and below it water is scouring a deep crater into the rock beside the chute.",
+          "visual_evidence": "Smooth chute flow up to the break, then white water plunging into an eroded rock hole with red-brown exposed rock.",
+          "extent": "Crater many tens of metres across",
+          "bbox": [
+            0.2,
+            0.35,
+            0.85,
+            1.0
+          ],
+          "suggested_fix": "Keep everyone out of the spillway area and downstream channel; reduce releases where possible, and have dam-safety engineers assess the chute and foundation before any repair.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Transmission towers on the hillside near the eroding spillway",
+          "component": "high-voltage transmission line above the spillway",
+          "description": "Several high-voltage transmission towers stand on the hillside above the spillway. If erosion spreads, their foundations could be at risk.",
+          "visual_evidence": "Lattice towers along the ridge above the chute.",
+          "extent": "3-4 towers",
+          "bbox": [
+            0.08,
+            0.0,
+            0.62,
+            0.3
+          ],
+          "suggested_fix": "Have the utility assess the towers' distance from the erosion and plan to de-energise or reroute if it spreads.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0003.jpg": {
+      "scene": "Downstream of the spillway: muddy, debris-laden flow in a ravine with freshly eroded red banks.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Heavy erosion and sediment in the downstream channel",
+          "component": "ravine below the spillway",
+          "description": "The flow below the spillway is carrying large amounts of eroded soil and rock. Its banks are freshly cut and red, and sediment will build up further downstream.",
+          "visual_evidence": "Brown turbulent water filling a ravine; bare red earth scars along the banks.",
+          "extent": "Hundreds of metres of channel",
+          "bbox": [
+            0.08,
+            0.42,
+            1.0,
+            0.95
+          ],
+          "suggested_fix": "Survey the downstream channel and river for sediment deposits and bank failures once flows drop; plan debris removal.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0004.jpg": {
+      "scene": "Spillway release plunging into the river from below the break; spray over the whole valley.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0005.jpg": {
+      "scene": "Emergency spillway weir overflowing onto bare hillside; the gated main spillway structure at right.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Emergency spillway overtopping and eroding the hillside",
+          "component": "Oroville emergency spillway (unlined hillside below the weir)",
+          "description": "Water is pouring over the emergency spillway weir onto the unlined hillside below it. The flow is cutting deep channels into the soil and rock directly downslope of the concrete weir.",
+          "visual_evidence": "Water spilling along the weir crest, white flow down bare red ground, eroded gullies starting just below the weir.",
+          "extent": "Full weir length, hundreds of metres",
+          "bbox": [
+            0.0,
+            0.15,
+            0.55,
+            0.95
+          ],
+          "suggested_fix": "Order evacuation downstream if erosion keeps moving toward the weir; increase main spillway releases to lower the lake below the weir crest; armour the eroding slope with rock as soon as it's safe.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0006.jpg": {
+      "scene": "Close view along the emergency weir crest with water overtopping and running down eroding rock.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0008.jpg": {
+      "scene": "Close view below the weir: flow cutting channels into the hillside.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Head-cut erosion advancing toward the weir",
+          "component": "hillside just downstream of the emergency weir",
+          "description": "Below the weir the water has cut steep channels and step-like drops into the ground. This head-cutting moves uphill toward the weir; if it reaches the weir's foundation the structure could be undermined.",
+          "visual_evidence": "Deep dark channels with steep upstream faces in red rock, the closest ones only metres below the weir.",
+          "extent": "Across the slope below the weir",
+          "bbox": [
+            0.0,
+            0.25,
+            1.0,
+            1.0
+          ],
+          "suggested_fix": "Monitor the distance from the head-cuts to the weir continuously; stop the overflow by lowering the lake; fill and armour the cuts.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0012.jpg": {
+      "scene": "Overflow cutting many parallel channels below the weir.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Head-cut erosion advancing toward the weir",
+          "component": "hillside just downstream of the emergency weir",
+          "description": "Dozens of parallel erosion channels are cut into the slope, starting right at the base of the weir.",
+          "visual_evidence": "Parallel white-water channels through red soil, beginning at the weir's downstream edge.",
+          "extent": "Full slope width",
+          "bbox": [
+            0.0,
+            0.3,
+            1.0,
+            1.0
+          ],
+          "suggested_fix": "As above: lower the lake below the crest and armour the slope.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0013.jpg": {
+      "scene": "Road beside the emergency spillway with flowing water and eroded ground next to it.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Road edge undermined by spillway flow",
+          "component": "access road beside the emergency spillway",
+          "description": "The water running beside the access road has eroded the ground next to it, and the pavement edge looks broken, with rocks and debris washed onto the road.",
+          "visual_evidence": "Irregular dark broken edge along the right side of the road, rocks scattered on the pavement, fast water right beside it.",
+          "extent": "~100 m of road edge",
+          "bbox": [
+            0.33,
+            0.0,
+            0.52,
+            1.0
+          ],
+          "suggested_fix": "Close the road to traffic; inspect the pavement and embankment once flow stops and rebuild the edge with erosion protection.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0014.jpg": {
+      "scene": "Emergency weir and the gated main spillway control structure; overflow and erosion across the hillside below. Same overflow as frame 5, seen wider; no new defects recorded.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    }
+  },
+  "summary": {
+    "overall_condition": "Critical",
+    "summary": "Footage filmed by the California Department of Water Resources on 12 February 2017 at Oroville Dam, the tallest dam in the US. Both spillways are damaged at once. The main concrete spillway chute has broken part-way down, and water leaving the chute is carving a huge crater into the hillside ({{Main spillway chute}}). With the lake full, water is also pouring over the emergency spillway onto unlined ground ({{Emergency spillway overtopping}}), and the erosion channels below it are cutting uphill toward the weir ({{Head-cut}}). If that erosion undermined the weir, an uncontrolled release could follow; this is the risk that led to the evacuation of about 188,000 people downstream that evening. Downstream, the flow is carrying heavy sediment ({{sediment}}), an access road beside the spillway is being undermined ({{Road edge}}), and transmission towers stand on the hillside near the erosion ({{Transmission towers}}).",
+    "key_risks": [
+      "Erosion undermining the emergency spillway weir and causing an uncontrolled release ({{Head-cut}}, {{Emergency spillway overtopping}}).",
+      "Further failure of the main spillway chute and the hillside around it ({{Main spillway chute}}).",
+      "Loss of the access road and power infrastructure next to the erosion ({{Road edge}}, {{Transmission towers}}).",
+      "Sediment and debris damaging the river channel and structures downstream ({{sediment}})."
+    ],
+    "immediate_actions": [
+      "Evacuate people downstream while erosion is advancing toward the weir ({{Head-cut}}).",
+      "Increase releases down the damaged main spillway to lower the lake below the emergency weir crest, accepting further chute damage ({{Main spillway chute}}, {{Emergency spillway overtopping}}).",
+      "Armour the eroding slope below the weir with rock by helicopter and truck as soon as it's safe ({{Head-cut}}).",
+      "Close the access road ({{Road edge}})."
+    ],
+    "next_30_days": [
+      "Continuous monitoring of the head-cut positions and the weir, with a trigger to re-evacuate.",
+      "Utility assessment of the transmission towers ({{Transmission towers}}).",
+      "Clear sediment and debris from the river below the spillway ({{sediment}})."
+    ],
+    "next_90_days": [
+      "Independent forensic review of the main spillway failure and redesign of both spillways to current dam-safety standards (FEMA P-93, USACE guidance).",
+      "Rebuild the chute and armour the emergency spillway with a concrete cutoff wall before the next wet season."
+    ]
+  }
+}

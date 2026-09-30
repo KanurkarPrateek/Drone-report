@@ -1,0 +1,388 @@
+{
+  "detected_by": "Claude Opus 5.5 (frames reviewed in a Claude Code session, not via API)",
+  "asset_type": "civil",
+  "credits": [
+    "Footage: \"4K Drone Video of New Building Construction - 1 of 4\", Med One Group, YouTube (youtu.be/eBRzj_CDkcc), 2015. Standard YouTube licence: used here for an internal demo only."
+  ],
+  "frames": {
+    "frame_0001.jpg": {
+      "scene": "Approach shot over the neighbourhood toward the site; building under construction at the lower left edge.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0002.jpg": {
+      "scene": "Steel-frame building under construction beside an occupied office building and a highway.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0003.jpg": {
+      "scene": "Wider view: steel frame with metal decking, site compound, equipment and neighbouring buildings.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0004.jpg": {
+      "scene": "Close view of the second-level metal deck with workers; excavator, trucks and material in the yard.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Open deck edges with no guardrail or perimeter cable",
+          "component": "second-level metal deck perimeter",
+          "description": "Workers are on the upper metal deck, and none of its edges appear to have guardrails, perimeter safety cables or netting. A fall from this level is about 4-5 m onto steel, concrete or the excavation below.",
+          "visual_evidence": "Straight deck edges with nothing standing along them; one worker stands close to the left edge; no stanchions or cables visible along the perimeter.",
+          "extent": "Whole deck perimeter, ~60 m",
+          "bbox": [
+            0.52,
+            0.3,
+            1.0,
+            0.86
+          ],
+          "suggested_fix": "Stop work at the edge until guardrails or perimeter cables (top rail at 42 in / 1.07 m, mid-rail) are installed along every open deck edge, or workers are tied off to engineered anchors.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Loose decking bundles and timber on the deck",
+          "component": "second-level deck, near the front edge",
+          "description": "Loose decking sheets and timber are stacked on the deck near the edge. They are trip hazards and can slide or be blown off onto people below.",
+          "visual_evidence": "Pile of boards and sheets lying loose on the deck near the front edge, next to hoses and cords.",
+          "extent": "Several stacks",
+          "bbox": [
+            0.67,
+            0.6,
+            0.8,
+            0.7
+          ],
+          "suggested_fix": "Keep stacked material back from the deck edge, band it down, and clear offcuts at the end of each shift.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0005.jpg": {
+      "scene": "Deck from above: two framed openings in the deck, workers with hoses and cords, a concrete pump boom at the right.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Unprotected openings in the metal deck",
+          "component": "stair/shaft openings in the second-level deck",
+          "description": "Two large rectangular openings in the deck, framed for stairs or a shaft, have no covers or guardrails around them. Workers are moving around the deck a few metres away.",
+          "visual_evidence": "Dark rectangular voids in the deck framed by steel beams, with no rails or covers visible.",
+          "extent": "2 openings, each ~3 x 4 m",
+          "bbox": [
+            0.59,
+            0.3,
+            0.78,
+            0.46
+          ],
+          "suggested_fix": "Cover every floor opening with a secured, marked cover that can take twice the expected load, or guardrail it on all sides, before anyone walks the deck.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Open deck edges with no guardrail or perimeter cable",
+          "component": "second-level metal deck perimeter",
+          "description": "Workers on the deck near the unprotected perimeter again, seen from above.",
+          "visual_evidence": "Workers at the left of the deck near its edge; no perimeter protection visible.",
+          "extent": "Deck perimeter",
+          "bbox": [
+            0.36,
+            0.24,
+            0.98,
+            0.72
+          ],
+          "suggested_fix": "Stop work at the edge until guardrails or perimeter cables (top rail at 42 in / 1.07 m, mid-rail) are installed along every open deck edge, or workers are tied off to engineered anchors.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Tripping hazards from hoses and cords across the deck",
+          "component": "second-level deck work area",
+          "description": "Air hoses and extension cords are coiled and run loose across the deck where people are walking.",
+          "visual_evidence": "Red and orange hose coils and cords lying across the deck near the workers.",
+          "extent": "Work area ~10 m",
+          "bbox": [
+            0.4,
+            0.4,
+            0.55,
+            0.58
+          ],
+          "suggested_fix": "Route hoses and cords along the edges or overhead and keep walkways clear.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0006.jpg": {
+      "scene": "Deck from the north: concrete pump boom over the deck, steel stock in the yard, excavation along the building.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Deep unshored trench along the west wall",
+          "component": "excavation beside the building's west foundation wall",
+          "description": "A deep excavation runs along the foundation wall with steep, almost vertical soil walls. No shoring, trench box or benching is visible.",
+          "visual_evidence": "Long trench next to the concrete wall, with steep raw soil faces and loose material at the top edges.",
+          "extent": "~30 m long, estimated 2-3 m deep",
+          "bbox": [
+            0.0,
+            0.62,
+            0.38,
+            1.0
+          ],
+          "suggested_fix": "Keep workers out of and away from the trench until a competent person inspects it; bench/slope the walls to the soil type or install shoring or a trench box, keep spoil 2 ft (0.6 m) back from the edge, and provide a ladder every 25 ft.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Unprotected openings in the metal deck",
+          "component": "stair/shaft openings in the deck",
+          "description": "The deck openings seen from another angle, still without covers or rails.",
+          "visual_evidence": "Framed rectangular voids without protection.",
+          "extent": "2 openings",
+          "bbox": [
+            0.54,
+            0.26,
+            0.66,
+            0.44
+          ],
+          "suggested_fix": "Cover every floor opening with a secured, marked cover that can take twice the expected load, or guardrail it on all sides, before anyone walks the deck.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0007.jpg": {
+      "scene": "Site from the south: concrete pump truck and boom, deck, deep trench along the south foundation wall with workers at its edge.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Deep unshored trench with workers at the edge (south wall)",
+          "component": "excavation along the south foundation wall",
+          "description": "A deep trench runs the full length of the south wall. Its soil walls are steep and unsupported, and several workers are standing and working right at the edge, with loose soil at the top.",
+          "visual_evidence": "Steep raw soil face 2-3 m high along the concrete wall, workers in hi-vis at the top edge, loose material and shadows showing the depth.",
+          "extent": "Full length of the building, ~35 m",
+          "bbox": [
+            0.0,
+            0.6,
+            0.98,
+            1.0
+          ],
+          "suggested_fix": "Keep workers out of and away from the trench until a competent person inspects it; bench/slope the walls to the soil type or install shoring or a trench box, keep spoil 2 ft (0.6 m) back from the edge, and provide a ladder every 25 ft.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Ladder to the deck (south wall) may not extend above the landing",
+          "component": "extension ladder against the south wall",
+          "description": "An extension ladder leans against the wall up to the deck. From the air it isn't clear whether it is tied off and extends 3 ft (0.9 m) above the landing.",
+          "visual_evidence": "Orange extension ladder from the trench-side ground up to the deck edge.",
+          "extent": "1 ladder",
+          "bbox": [
+            0.56,
+            0.58,
+            0.6,
+            0.84
+          ],
+          "suggested_fix": "Check the ladder extends 3 ft above the deck, is secured at the top, and stands on firm ground away from the trench edge.",
+          "visibility": "uncertain"
+        },
+        {
+          "label": "Workers near the concrete pump boom and trucks",
+          "component": "concrete pump and mixer area",
+          "description": "People are working close to the concrete pump outriggers and boom and the mixer trucks. Everyone should be clear of the boom's swing and the outrigger pads.",
+          "visual_evidence": "Blue pump boom extended over the site; workers on foot next to the pump and trucks.",
+          "extent": "Pump area",
+          "bbox": [
+            0.03,
+            0.02,
+            0.33,
+            0.48
+          ],
+          "suggested_fix": "Mark an exclusion zone around the pump outriggers and under the boom; only the hose crew inside it.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0008.jpg": {
+      "scene": "Site from the west: pump, deck, trench along the west wall, generator and ladder.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Deep unshored trench along the west wall",
+          "component": "excavation along the west foundation wall",
+          "description": "The same deep trench continues along the west wall with steep unsupported sides.",
+          "visual_evidence": "Raw vertical soil face and deep shadow along the wall.",
+          "extent": "~30 m",
+          "bbox": [
+            0.0,
+            0.55,
+            0.4,
+            1.0
+          ],
+          "suggested_fix": "Keep workers out of and away from the trench until a competent person inspects it; bench/slope the walls to the soil type or install shoring or a trench box, keep spoil 2 ft (0.6 m) back from the edge, and provide a ladder every 25 ft.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Ladder to the deck (west wall) may not extend above the landing",
+          "component": "extension ladder on the west wall",
+          "description": "A second ladder leans against the wall to the deck; its top extension and tie-off can't be confirmed from the air.",
+          "visual_evidence": "Orange ladder against the wall reaching the deck edge.",
+          "extent": "1 ladder",
+          "bbox": [
+            0.43,
+            0.62,
+            0.47,
+            0.82
+          ],
+          "suggested_fix": "Confirm 3 ft extension above the landing and tie the ladder off.",
+          "visibility": "uncertain"
+        }
+      ]
+    },
+    "frame_0009.jpg": {
+      "scene": "Deck with workers near the framed openings; pump, mixer and loader in the yard.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Unprotected openings in the metal deck",
+          "component": "stair/shaft openings in the deck",
+          "description": "Workers are walking close to the uncovered openings in the deck.",
+          "visual_evidence": "Workers within a few metres of dark unprotected voids.",
+          "extent": "2 openings",
+          "bbox": [
+            0.4,
+            0.22,
+            0.56,
+            0.45
+          ],
+          "suggested_fix": "Cover every floor opening with a secured, marked cover that can take twice the expected load, or guardrail it on all sides, before anyone walks the deck.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0010.jpg": {
+      "scene": "Yard: excavator, wheel loader, telehandler, trucks and a worker walking between machines.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Worker on foot among operating heavy equipment",
+          "component": "site yard with excavator, loader and telehandler",
+          "description": "A worker is walking in the yard between the excavator, wheel loader and telehandler, with no marked pedestrian route separating people from machines.",
+          "visual_evidence": "Worker in hi-vis on the dirt yard with machines on both sides; tyre tracks crossing the area.",
+          "extent": "Yard ~40 x 30 m",
+          "bbox": [
+            0.55,
+            0.28,
+            0.95,
+            0.72
+          ],
+          "suggested_fix": "Set up marked pedestrian routes and keep people out of machine swing and travel paths; use a spotter when machines move near workers.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Uncovered aggregate stockpiles",
+          "component": "gravel and sand piles near the yard edge",
+          "description": "Gravel and sand stockpiles next to the site edge and car park are uncovered, which can blow dust onto neighbours and wash into drains.",
+          "visual_evidence": "Light grey and tan piles with no covers, next to the fence and parking lot.",
+          "extent": "2-3 piles",
+          "bbox": [
+            0.75,
+            0.15,
+            0.95,
+            0.4
+          ],
+          "suggested_fix": "Cover or wet down stockpiles and keep them inside sediment controls.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0011.jpg": {
+      "scene": "Deck in strong sun from the east; pump and yard.",
+      "image_quality": "over_or_under_exposed",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0012.jpg": {
+      "scene": "Neighbouring occupied office building and its car park next to the site.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0013.jpg": {
+      "scene": "Site edge next to the public car park; trench along the street side.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Excavation next to public sidewalk and road",
+          "component": "trench along the street frontage",
+          "description": "The excavation runs along the street frontage right next to the public sidewalk and road. Only a light fence separates it from pedestrians, and some fence panels look leaning or down.",
+          "visual_evidence": "Open trench beside the sidewalk, grey fence panels at uneven angles along it, traffic lanes a few metres away.",
+          "extent": "~30 m along the street",
+          "bbox": [
+            0.6,
+            0.0,
+            0.92,
+            0.35
+          ],
+          "suggested_fix": "Install solid barriers or secured fencing with signage along the sidewalk, repair fallen fence panels, and keep traffic control in place.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0014.jpg": {
+      "scene": "Top-down view of the site, trench and street frontage.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Excavation next to public sidewalk and road",
+          "component": "trench along the street frontage",
+          "description": "From above, the excavation follows the sidewalk edge; the fence panels along it are not continuous.",
+          "visual_evidence": "Trench and spoil beside the sidewalk with gaps and leaning panels in the fence.",
+          "extent": "~30 m",
+          "bbox": [
+            0.62,
+            0.0,
+            0.95,
+            0.5
+          ],
+          "suggested_fix": "Close the gaps in the fence and add barriers along the sidewalk.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0015.jpg": {
+      "scene": "Top-down overview: steel building, yard, compound, trench and street.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    }
+  },
+  "summary": {
+    "overall_condition": "Poor",
+    "summary": "A steel-frame building with a metal deck at second level, a concrete pump pour in progress, and a deep excavation along the foundation walls. The work looks well organised, but three serious fall and cave-in hazards are visible. The deck perimeter has no guardrails or safety cables while people work on it ({{Open deck edges}}). Two large openings in the deck are uncovered ({{Unprotected openings}}). And the excavation along the foundation walls has steep, unsupported sides with people working at its edge ({{unshored trench}}, {{west wall}}). Falls from height and trench collapses are two of the most common causes of death in construction, so these need correcting before work continues. Lesser issues: loose material on the deck ({{Loose decking}}), hoses across walkways ({{Tripping}}), people close to the concrete pump and moving machines ({{concrete pump}}, {{Worker on foot}}), and the excavation beside the public sidewalk ({{sidewalk}}).",
+    "key_risks": [
+      "Fall from the open deck edge or through an uncovered opening ({{Open deck edges}}, {{Unprotected openings}}).",
+      "Trench wall collapse onto workers at or in the excavation ({{unshored trench}}, {{west wall}}).",
+      "People struck by machines or the pump boom ({{Worker on foot}}, {{concrete pump}}).",
+      "Members of the public falling into the excavation from the sidewalk ({{sidewalk}})."
+    ],
+    "immediate_actions": [
+      "Stop deck work until perimeter guardrails or cables are up and every opening is covered or railed ({{Open deck edges}}, {{Unprotected openings}}).",
+      "Keep people out of and back from the trench until a competent person inspects it and it is shored, boxed or sloped ({{unshored trench}}, {{west wall}}).",
+      "Fix the sidewalk fencing and add barriers ({{sidewalk}})."
+    ],
+    "next_30_days": [
+      "Mark pedestrian routes and exclusion zones around the pump and machines ({{Worker on foot}}, {{concrete pump}}).",
+      "Check ladder extension and tie-off at both access points ({{Ladder to the deck}}).",
+      "Housekeeping on the deck: stack and band material away from edges, route hoses off walkways ({{Loose decking}}, {{Tripping}}).",
+      "Cover the stockpiles ({{stockpiles}})."
+    ],
+    "next_90_days": [
+      "Re-fly weekly as the building goes up; check fall protection on each new level and backfill of the excavation.",
+      "Add the drone check to the site's weekly safety inspection."
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "detected_by": "Claude Opus 5.5 (frames reviewed in a Claude Code session, not via API)",
+  "asset_type": "civil",
+  "credits": [
+    "Footage: \"NTSB B-Roll - Aerial Imagery of Francis Scott Key Bridge and Cargo Ship Dali\", National Transportation Safety Board, 26 March 2024, via Wikimedia Commons (public domain)."
+  ],
+  "frames": {
+    "frame_0001.jpg": {
+      "scene": "NTSB title card.",
+      "image_quality": "obstructed",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0002.jpg": {
+      "scene": "Looking along the remaining approach roadway toward the gap where the main spans were; the ship and collapsed truss beyond.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Approach roadway ends abruptly at the collapse",
+          "component": "bridge approach span (road deck)",
+          "description": "The approach road deck stops abruptly where the main spans have fallen. Anyone driving onto the bridge would drive straight into the gap.",
+          "visual_evidence": "Road deck with lane markings ending in a clean cut over open water.",
+          "extent": "Full road width",
+          "bbox": [
+            0.4,
+            0.62,
+            0.57,
+            1.0
+          ],
+          "suggested_fix": "Keep road closures at both ends with physical barriers well back from the gap; assess the remaining approach spans and piers.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Main truss spans collapsed into the channel",
+          "component": "continuous steel truss main spans",
+          "description": "The main steel truss spans have collapsed into the water, leaving only a pier and a piece of truss standing beyond the gap.",
+          "visual_evidence": "Truss sections lying in the water and a single tower of steelwork near the ship.",
+          "extent": "Main spans, hundreds of metres",
+          "bbox": [
+            0.4,
+            0.25,
+            0.56,
+            0.6
+          ],
+          "suggested_fix": "Keep the bridge closed and the waterway below restricted; engineers must assess the remaining piers and approach spans before any salvage work starts.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0003.jpg": {
+      "scene": "Directly over the gap: a pier stub and wreckage in the water.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Bridge pier destroyed with wreckage in the water",
+          "component": "main-span pier",
+          "description": "A pier that supported the main spans is broken off near water level, with wreckage piled on and around it.",
+          "visual_evidence": "Broken concrete and steel at water level where a pier stood, debris around it.",
+          "extent": "1 pier",
+          "bbox": [
+            0.43,
+            0.55,
+            0.56,
+            0.96
+          ],
+          "suggested_fix": "Keep the bridge closed and the waterway below restricted; engineers must assess the remaining piers and approach spans before any salvage work starts.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0004.jpg": {
+      "scene": "Collapsed truss spans lying across the channel toward the ship.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0005.jpg": {
+      "scene": "Remaining pier with a collapsed truss section draped against it.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Truss section draped against a damaged pier",
+          "component": "pier and collapsed truss",
+          "description": "A large truss section has fallen against this pier and is tangled around it. The pier cap is damaged and the wreckage is unstable.",
+          "visual_evidence": "Twisted steel truss leaning against a concrete pier column; bent and broken members.",
+          "extent": "1 pier and one truss section",
+          "bbox": [
+            0.4,
+            0.28,
+            0.72,
+            1.0
+          ],
+          "suggested_fix": "Keep the bridge closed and the waterway below restricted; engineers must assess the remaining piers and approach spans before any salvage work starts.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0007.jpg": {
+      "scene": "The ship Dali with a collapsed truss span lying across its bow and containers.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Truss span lying across the ship's bow",
+          "component": "collapsed main truss span on the vessel",
+          "description": "A whole section of the steel truss has fallen across the ship's bow. The ship is pinned under the wreckage and can't be moved until it is cut away.",
+          "visual_evidence": "Grey truss members spanning the bow, resting on the deck and containers, other truss sections in the water on both sides.",
+          "extent": "One truss span, ~100 m",
+          "bbox": [
+            0.18,
+            0.28,
+            1.0,
+            0.95
+          ],
+          "suggested_fix": "Stabilise and cut the truss into sections with heavy-lift cranes under an engineered salvage plan before refloating the ship.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Containers crushed by falling bridge steel",
+          "component": "containers on the ship's forward bays",
+          "description": "Containers at the front of the ship are crushed and knocked over by the falling steel. Some may hold hazardous goods and may be leaking.",
+          "visual_evidence": "Crumpled and tilted containers under the truss at the bow.",
+          "extent": "Several containers",
+          "bbox": [
+            0.42,
+            0.3,
+            0.62,
+            0.5
+          ],
+          "suggested_fix": "Check the cargo manifest for dangerous goods in the damaged bays; hazmat teams to inspect and monitor for leaks.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0008.jpg": {
+      "scene": "Top-down view of the bow under the wreckage.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0011.jpg": {
+      "scene": "Collapsed truss spans on both sides of the ship, partly under water.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Wreckage blocking the shipping channel",
+          "component": "navigation channel under the bridge",
+          "description": "Collapsed truss spans lie across the channel on both sides of the ship, closing the shipping channel into the port.",
+          "visual_evidence": "Truss sections sticking up out of the water across the channel width.",
+          "extent": "Channel width",
+          "bbox": [
+            0.0,
+            0.18,
+            1.0,
+            0.62
+          ],
+          "suggested_fix": "Keep the channel closed; mark wreckage with buoys; open temporary alternate channels once surveyed; plan wreck removal.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0013.jpg": {
+      "scene": "Wide view: ship, remaining approach span on the right ending in mid-air, truss wreckage in the water.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Far-side approach span ends over open water",
+          "component": "far-side approach span",
+          "description": "On the far side the approach span also ends over open water.",
+          "visual_evidence": "Road deck on piers ending at the gap, truss wreckage in the water next to it.",
+          "extent": "Approach span",
+          "bbox": [
+            0.64,
+            0.4,
+            0.96,
+            0.53
+          ],
+          "suggested_fix": "Keep the far-side closure in place and assess the remaining piers.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0015.jpg": {
+      "scene": "Along the ship's side: bow wreckage and a yellow boom in the water along the hull.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Containment boom along the hull (possible fuel release)",
+          "component": "water around the ship",
+          "description": "A yellow containment boom has been laid in the water along the ship's hull, which suggests fuel or oil may be leaking. The sheen itself can't be seen at this distance.",
+          "visual_evidence": "Continuous yellow floating boom following the hull toward the bow.",
+          "extent": "Along the length of the hull",
+          "bbox": [
+            0.0,
+            0.62,
+            0.52,
+            0.98
+          ],
+          "suggested_fix": "Keep booms in place and monitored; sample the water; check the ship's fuel tanks for damage.",
+          "visibility": "uncertain"
+        }
+      ]
+    },
+    "frame_0016.jpg": {
+      "scene": "Close view of the bow under the wreckage with a work boat alongside.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0018.jpg": {
+      "scene": "Open water where the spans were; a pier protection dolphin in the foreground.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    }
+  },
+  "summary": {
+    "overall_condition": "Critical",
+    "summary": "NTSB drone footage from 26 March 2024, hours after the container ship Dali struck a main pier of the Francis Scott Key Bridge in Baltimore. The continuous steel truss spans have collapsed into the Patapsco River ({{Main truss spans}}): a main pier is destroyed ({{pier destroyed}}), a truss section is draped against another pier ({{draped}}), and a whole span lies across the ship's bow, pinning it in place ({{across the ship}}). Both approach roadways now end over open water ({{Approach roadway}}, {{Far-side approach}}). Containers at the bow are crushed ({{Containers crushed}}), a containment boom along the hull suggests a possible fuel release ({{Containment boom}}), and the wreckage closes the shipping channel into the Port of Baltimore ({{Wreckage blocking}}). This is a total structural failure; the report's job is to support safe closure, salvage and investigation, not repair.",
+    "key_risks": [
+      "Vehicles or people reaching the open ends of the approach spans ({{Approach roadway}}, {{Far-side approach}}).",
+      "Unstable wreckage shifting during salvage onto crews and vessels ({{draped}}, {{across the ship}}).",
+      "Hazardous cargo and fuel leaking from damaged containers and the ship ({{Containers crushed}}, {{Containment boom}}).",
+      "Port closed until the channel is cleared ({{Wreckage blocking}})."
+    ],
+    "immediate_actions": [
+      "Hard road closures with barriers well back from both open ends ({{Approach roadway}}, {{Far-side approach}}).",
+      "Marine exclusion zone and wreck marking in the channel ({{Wreckage blocking}}).",
+      "Dangerous-goods check of the damaged containers and fuel-leak response ({{Containers crushed}}, {{Containment boom}}).",
+      "Preserve evidence for the NTSB investigation."
+    ],
+    "next_30_days": [
+      "Engineered salvage plan: cut and lift the truss off the ship and out of the channel ({{across the ship}}, {{Main truss spans}}).",
+      "Open temporary alternate channels once surveyed ({{Wreckage blocking}}).",
+      "Assess the remaining piers and approach spans for damage ({{pier destroyed}}, {{draped}})."
+    ],
+    "next_90_days": [
+      "Demolish or retain the approach spans based on the assessment; design a replacement crossing with pier protection sized for today's ships.",
+      "Review pier protection (dolphins/fenders) on other bridges over busy shipping channels."
+    ]
+  }
+}

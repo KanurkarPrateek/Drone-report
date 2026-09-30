@@ -1,0 +1,5 @@
+anthropic>=1.8
+typesafe-sdk>=0.7.1
+reportlab>=5.0
+pillow>=11
+flask>=3.1

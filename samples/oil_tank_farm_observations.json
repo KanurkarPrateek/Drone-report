@@ -1,0 +1,344 @@
+{
+  "detected_by": "Claude Opus 5.5 (frames reviewed in a Claude Code session, not via API)",
+  "asset_type": "oil_gas",
+  "frames": {
+    "frame_0001.jpg": {
+      "scene": "Top-down view of a large storage tank with an aluminium geodesic dome roof, roof hatch platform and stairs; dark soil around the tank.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "White crystalline deposits around roof hatches and stair landing",
+          "component": "tank roof fittings and stair landing",
+          "description": "White powdery or crystalline deposits have built up around the roof hatch and vent fittings and on the stair landing below them. Deposits here often come from product vapour or liquid escaping through hatch or vent seals.",
+          "visual_evidence": "Bright white granular patches concentrated around the circular roof fittings and spread across the landing grating.",
+          "extent": "Around 2-3 roof fittings and the landing, ~2 m2",
+          "bbox": [
+            0.4,
+            0.4,
+            0.57,
+            0.88
+          ],
+          "suggested_fix": "Sample the deposit to identify it, then check the gaskets and seals on the roof hatches and vents; replace any that are worn and clean the deposits off.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Dark streaking on dome roof panels",
+          "component": "aluminium dome roof panels",
+          "description": "Several roof panels have dark vertical streaks running down from the panel joints.",
+          "visual_evidence": "Grey-black streaks following the slope of the panels below the joint lines.",
+          "extent": "Several panels on one side of the dome",
+          "bbox": [
+            0.7,
+            0.22,
+            1.0,
+            0.65
+          ],
+          "suggested_fix": "Check the joints above the streaks for failed sealant; reseal where needed and clean the panels.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0002.jpg": {
+      "scene": "Edge of the tank with the spiral stair; bare soil and gravel around the tank base.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Dark stains on soil around tank base",
+          "component": "ground inside the tank area",
+          "description": "Irregular dark patches cover large parts of the soil around the tank base. They could be old product drips or spills soaked into the ground, or just damp soil.",
+          "visual_evidence": "Dark, blotchy patches with soft edges on brown soil, darker than the surrounding ground and not matching any shadows.",
+          "extent": "Several patches over roughly 20-30 m2",
+          "bbox": [
+            0.15,
+            0.2,
+            0.5,
+            0.62
+          ],
+          "suggested_fix": "Take soil samples in the stained areas and test for hydrocarbons; if positive, find the source (buried line, flange or drain valve), repair it, and remove the contaminated soil.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0003.jpg": {
+      "scene": "Tank shell and stairs on the right; soil with dark patches; a small cylindrical vessel at the left edge and a pipe rack at top left.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Rust streaks on small vertical vessel",
+          "component": "small vertical vessel / standpipe beside the tank",
+          "description": "A small cylindrical vessel next to the tank has orange-brown rust streaks running down its shell and around its top.",
+          "visual_evidence": "Orange-brown rust patches and runs on a white-painted cylinder at the image edge.",
+          "extent": "Partly in view; multiple rust patches",
+          "bbox": [
+            0.0,
+            0.25,
+            0.07,
+            0.49
+          ],
+          "suggested_fix": "UT-gauge the vessel wall at the rusted areas; if thickness is fine, wire-brush or blast and recoat. If there is pitting, have an engineer assess it before it goes back in service.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Dark stains on soil around tank base",
+          "component": "ground inside the tank area",
+          "description": "More dark patches on the soil between the tank and the pipe rack.",
+          "visual_evidence": "Dark blotches on brown soil with no matching shadow source.",
+          "extent": "Several m2",
+          "bbox": [
+            0.25,
+            0.42,
+            0.55,
+            0.72
+          ],
+          "suggested_fix": "Take soil samples in the stained areas and test for hydrocarbons; if positive, find the source (buried line, flange or drain valve), repair it, and remove the contaminated soil.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0004.jpg": {
+      "scene": "Pipe rack running diagonally past the tank; small rusted vessel lower left; dark soil staining around and under the pipes.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Corroded small vertical vessel",
+          "component": "small vertical vessel / standpipe beside the tank",
+          "description": "The small vertical vessel is clearly corroded: orange rust streaks and patches cover its shell, and paint has failed over large areas.",
+          "visual_evidence": "Orange-brown rust runs and patches on the cylinder shell, bare metal showing through failed white paint.",
+          "extent": "Rust over roughly a third of the visible shell",
+          "bbox": [
+            0.0,
+            0.46,
+            0.13,
+            0.75
+          ],
+          "suggested_fix": "UT-gauge the vessel wall at the rusted areas; if thickness is fine, wire-brush or blast and recoat. If there is pitting, have an engineer assess it before it goes back in service.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Dark soil staining along pipe rack",
+          "component": "ground under and along the ground-level pipe rack",
+          "description": "Dark stains follow the line of the pipe rack, which sits low over bare soil. Staining concentrated under piping often means drips from flanges, valves or drains over time.",
+          "visual_evidence": "Dark patches strongest directly beneath and beside the pipes, fading further away.",
+          "extent": "Along ~15 m of pipe rack",
+          "bbox": [
+            0.08,
+            0.25,
+            0.5,
+            0.95
+          ],
+          "suggested_fix": "Take soil samples in the stained areas and test for hydrocarbons; if positive, find the source (buried line, flange or drain valve), repair it, and remove the contaminated soil.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Dark band at roof-to-shell junction",
+          "component": "tank roof edge / rim",
+          "description": "A dark band runs along the edge where the roof meets the tank shell. It could be staining from the seal area or just dirt that has collected there.",
+          "visual_evidence": "Continuous dark grey band following the curve of the roof edge.",
+          "extent": "Along the visible part of the rim",
+          "bbox": [
+            0.62,
+            0.0,
+            0.98,
+            0.45
+          ],
+          "suggested_fix": "Inspect the roof-to-shell seal from the wind girder or roof; check for vapour or product at the seal and repair if needed.",
+          "visibility": "uncertain"
+        }
+      ]
+    },
+    "frame_0005.jpg": {
+      "scene": "Pipe rack and tank shell; the corroded vessel at the bottom left.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Corroded small vertical vessel",
+          "component": "small vertical vessel / standpipe beside the tank",
+          "description": "Closer view of the same vessel: heavy rust streaks on the shell and rust on the top.",
+          "visual_evidence": "Dense orange-brown streaks and patches on the shell.",
+          "extent": "Rust over much of the visible shell",
+          "bbox": [
+            0.0,
+            0.72,
+            0.21,
+            1.0
+          ],
+          "suggested_fix": "UT-gauge the vessel wall at the rusted areas; if thickness is fine, wire-brush or blast and recoat. If there is pitting, have an engineer assess it before it goes back in service.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Dark soil staining along pipe rack",
+          "component": "ground under and along the ground-level pipe rack",
+          "description": "Dark stains continue along the pipe rack.",
+          "visual_evidence": "Dark patches next to and under the pipes.",
+          "extent": "Along ~10 m",
+          "bbox": [
+            0.2,
+            0.45,
+            0.6,
+            0.95
+          ],
+          "suggested_fix": "Take soil samples in the stained areas and test for hydrocarbons; if positive, find the source (buried line, flange or drain valve), repair it, and remove the contaminated soil.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0006.jpg": {
+      "scene": "Pipe rack and valve manifold beside the tank.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Dark soil staining along pipe rack",
+          "component": "ground under and along the ground-level pipe rack",
+          "description": "Dark stains under and around the pipe rack.",
+          "visual_evidence": "Dark patches concentrated beneath the pipes.",
+          "extent": "Along ~10 m",
+          "bbox": [
+            0.2,
+            0.5,
+            0.7,
+            1.0
+          ],
+          "suggested_fix": "Take soil samples in the stained areas and test for hydrocarbons; if positive, find the source (buried line, flange or drain valve), repair it, and remove the contaminated soil.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0007.jpg": {
+      "scene": "Pump skid, valve manifold with red handwheels on the tank nozzles, pipe crossover stairs, gravel road on the left.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Dark soil staining along pipe rack",
+          "component": "ground under and along the ground-level pipe rack",
+          "description": "Dark stains on the soil around the pipe rack near the pump skid.",
+          "visual_evidence": "Dark patches next to the pipes.",
+          "extent": "Several m2",
+          "bbox": [
+            0.4,
+            0.55,
+            0.72,
+            1.0
+          ],
+          "suggested_fix": "Take soil samples in the stained areas and test for hydrocarbons; if positive, find the source (buried line, flange or drain valve), repair it, and remove the contaminated soil.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0008.jpg": {
+      "scene": "Pump skid and tank nozzles; gravel road; a small red object on the gravel near the crossover stairs; reddish ground in the drainage area at top left.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Loose red equipment lying on the ground",
+          "component": "housekeeping near crossover stairs",
+          "description": "A small red item, possibly a portable fire extinguisher or gas detector, is lying loose on the gravel next to the crossover stairs rather than mounted or stored.",
+          "visual_evidence": "Small bright red object on its side on the gravel.",
+          "extent": "1 item",
+          "bbox": [
+            0.19,
+            0.19,
+            0.23,
+            0.27
+          ],
+          "suggested_fix": "Identify the item; if it is a fire extinguisher, put it back on its bracket and check its inspection tag.",
+          "visibility": "uncertain"
+        }
+      ]
+    },
+    "frame_0009.jpg": {
+      "scene": "Gravel road, pump skid and tank; reddish discoloured drainage strip at the left edge.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Crack in road surface",
+          "component": "access road beside the tank area",
+          "description": "A thin crack runs across the access road surface.",
+          "visual_evidence": "Dark hairline crack in the grey road surface.",
+          "extent": "~2 m long",
+          "bbox": [
+            0.15,
+            0.22,
+            0.21,
+            0.4
+          ],
+          "suggested_fix": "Seal the crack at the next road maintenance; monitor for widening.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0010.jpg": {
+      "scene": "Gravel road and pipe rack; along the left edge a drainage channel with reddish-brown wet-looking ground and weeds.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Reddish-brown wet discolouration in drainage channel",
+          "component": "drainage channel beside the access road",
+          "description": "The drainage channel along the road has reddish-brown, wet-looking ground with weeds growing in it. It could be standing water with iron-rich sediment, or liquid draining from the tank area.",
+          "visual_evidence": "Dark red-brown glossy surface along the channel, with green weeds along its edge.",
+          "extent": "Strip along the whole left side of the frame, ~15 m",
+          "bbox": [
+            0.0,
+            0.0,
+            0.15,
+            0.62
+          ],
+          "suggested_fix": "Sample the liquid or sediment in the channel; check where it drains from and that the tank area's drain valves are closed.",
+          "visibility": "uncertain"
+        },
+        {
+          "label": "Crack in road surface",
+          "component": "access road beside the tank area",
+          "description": "The same crack in the road surface is visible again.",
+          "visual_evidence": "Dark hairline crack in the road.",
+          "extent": "~2 m",
+          "bbox": [
+            0.14,
+            0.33,
+            0.2,
+            0.48
+          ],
+          "suggested_fix": "Seal at the next road maintenance.",
+          "visibility": "partial"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "overall_condition": "Fair",
+    "summary": "A 19-second close drone pass over one storage tank, its roof fittings and the adjacent ground-level pipe rack. The tank shell and pipework look sound and are well painted, but the ground tells a different story: dark stains cover the soil around the tank base ({{Dark stains on soil around tank}}) and follow the pipe rack for about 15 m ({{staining along pipe rack}}), a pattern consistent with long-term drips from flanges, valves or drains. White deposits around the roof hatches ({{White crystalline}}) suggest vapour or product escaping through seals, and a small vertical vessel beside the tank is visibly rusting ({{Corroded small vertical}}). A reddish, wet-looking drainage channel ({{drainage channel}}) and a dark band at the roof edge ({{roof-to-shell}}) need checking on site before any conclusion. None of the findings is an active emergency, but the staining should be tested promptly because it may mean a slow, ongoing release to soil.",
+    "key_risks": [
+      "{{Dark stains on soil around tank}}, {{staining along pipe rack}}: Possible hydrocarbon contamination of soil around the tank and pipe rack from slow, repeated drips.",
+      "{{White crystalline}}: Roof hatch or vent seals may be leaking vapour or product.",
+      "{{drainage channel}}: Liquid in the drainage channel could be leaving the tank area (unconfirmed).",
+      "{{Corroded small vertical}}: Corrosion on the small vertical vessel will worsen without recoating."
+    ],
+    "immediate_actions": [
+      "Take soil samples at the stained areas ({{Dark stains on soil around tank}}, {{staining along pipe rack}}) and test for hydrocarbons.",
+      "Walk the pipe rack and check every flange, valve and drain point above the stains for drips ({{staining along pipe rack}}).",
+      "Confirm the tank area's drain valves are closed and sample the drainage channel ({{drainage channel}})."
+    ],
+    "next_30_days": [
+      "Inspect and replace roof hatch and vent seals; identify and clean the white deposits ({{White crystalline}}).",
+      "UT-gauge and recoat the corroded vessel ({{Corroded small vertical}}).",
+      "Check the roof-to-shell seal ({{roof-to-shell}}) and reseal roof panel joints ({{streaking on dome}}).",
+      "Put the loose red equipment back in its proper place ({{Loose red equipment}})."
+    ],
+    "next_90_days": [
+      "Remove any contaminated soil found by the sampling and record it for regulatory reporting.",
+      "Seal the road crack ({{Crack in road}}) and re-fly the site to confirm fixes."
+    ]
+  },
+  "credits": [
+    "Footage: \"Drone Footage of a Circular Storage Tank\", Pexels video #4324072 (Pexels License)."
+  ]
+}

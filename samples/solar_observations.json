@@ -1,0 +1,220 @@
+{
+  "detected_by": "Claude Opus 5.5 (frames reviewed in a Claude Code session, not via API)",
+  "asset_type": "solar",
+  "frames": {
+    "frame_0001.jpg": {
+      "scene": "Site A (rooftop, Seibersdorf AT): close-up of the front glass of a module removed after a fire.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Burn-through holes in module glass",
+          "component": "PV module (removed from Site A roof)",
+          "description": "The module has burned through from behind: two holes have melted through the glass and cells, with charred and melted material around them. This is the result of an internal electrical fault (hotspot or arc) that caught fire.",
+          "visual_evidence": "Two ragged holes with melted, silvered edges, brown scorching around them across 3-4 cells.",
+          "extent": "Area of about 4 cells, ~30 x 25 cm",
+          "bbox": [
+            0.27,
+            0.36,
+            0.59,
+            0.7
+          ],
+          "suggested_fix": "Keep the module out of service and send it for failure analysis or warranty; test the rest of the string and the other modules on the roof for the same fault.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0002.jpg": {
+      "scene": "Site A: firefighters on ladders at a residential rooftop PV array; bare tree branches above the array.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Fire-damaged spot on installed module",
+          "component": "PV module in the lower row of Site A roof",
+          "description": "A small damaged, discoloured spot is visible on one module in the lower row, where the burn-through happened.",
+          "visual_evidence": "Small dark and light irregular mark on the glass between the two firefighters.",
+          "extent": "1 module",
+          "bbox": [
+            0.41,
+            0.54,
+            0.51,
+            0.63
+          ],
+          "suggested_fix": "Isolate the string at the inverter before any work; replace the module and check the connectors and cabling behind it.",
+          "visibility": "partial"
+        },
+        {
+          "label": "Tree branches overhanging the array",
+          "component": "tree next to Site A roof",
+          "description": "Branches from a nearby tree hang over the top of the array. In leaf they will shade the upper modules for part of the day.",
+          "visual_evidence": "Bare branches crossing over the upper module rows.",
+          "extent": "Upper 2 rows, several modules",
+          "bbox": [
+            0.35,
+            0.0,
+            0.92,
+            0.25
+          ],
+          "suggested_fix": "Trim the tree back so it can't shade or drop debris on the array.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0003.jpg": {
+      "scene": "Site A: firefighters removing the fire-damaged module from the roof; burned backsheet partly visible.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0004.jpg": {
+      "scene": "Site A: the removed module held up to show its backsheet.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Scorched backsheet with burn marks along the cell connections",
+          "component": "PV module backsheet (removed from Site A)",
+          "description": "The back of the module is badly scorched in a large patch, and there are many small burn spots in a line along the cell connections, some near the junction box. This points to an electrical fault inside the module, not an outside fire.",
+          "visual_evidence": "Large black burned area with melted material in the middle, plus a row of small brown-black burn spots across the backsheet.",
+          "extent": "Burn area ~40 x 15 cm plus spots across most of the module width",
+          "bbox": [
+            0.38,
+            0.47,
+            0.9,
+            0.73
+          ],
+          "suggested_fix": "Keep for failure analysis; check the same model and batch elsewhere on the roof with a thermal camera, and have an electrician inspect the inverter's arc-fault and ground-fault settings.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0005.jpg": {
+      "scene": "Site B (ground-mount farm): low drone view between two rows of tilted modules; grass under the rows; fence in front.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0006.jpg": {
+      "scene": "Site B: low drone view along the aisle between rows.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0007.jpg": {
+      "scene": "Site B: closer view between rows; string inverters on posts; cables under the modules; tall grass.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "DC cables hanging loose under modules",
+          "component": "string cabling under module rows, Site B",
+          "description": "Cables hang in loose loops below the modules at both sides of the aisle instead of being clipped to the racking. Loose cables can be chafed by wind, chewed by animals, or caught by mowers.",
+          "visual_evidence": "Dark cable loops hanging freely below the module edges on the left and right.",
+          "extent": "At least 2 rows",
+          "bbox": [
+            0.07,
+            0.68,
+            0.13,
+            0.88
+          ],
+          "suggested_fix": "Isolate the strings, inspect the cables for damage, and clip them to the racking with UV-rated clips.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Tall vegetation under module rows",
+          "component": "ground under the rows, Site B",
+          "description": "Grass and weeds are growing tall under and between the rows. In summer this can reach the lower module edges, shading cells, and dry grass is a fire risk next to cabling.",
+          "visual_evidence": "Dense green grass and weeds covering the ground under the modules and around the posts.",
+          "extent": "Across the visible rows",
+          "bbox": [
+            0.0,
+            0.62,
+            1.0,
+            1.0
+          ],
+          "suggested_fix": "Mow or graze under the rows on a regular schedule, keeping vegetation well below the lowest module edge.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0008.jpg": {
+      "scene": "Site B: rows of modules and inverters; grass under the rows.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0009.jpg": {
+      "scene": "Site C (flat roof): close drone pass over rooftop modules; low sun glare.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Dust and grime on module glass",
+          "component": "rooftop PV modules, Site C",
+          "description": "The glass on several modules has a visible layer of dust and grime spread over the surface.",
+          "visual_evidence": "Matte, speckled film over the cells, clearest where the light catches it.",
+          "extent": "Several modules in view",
+          "bbox": [
+            0.05,
+            0.3,
+            0.7,
+            0.85
+          ],
+          "suggested_fix": "Clean with deionised water and a soft brush; set a cleaning interval based on how quickly it builds up.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0010.jpg": {
+      "scene": "Site C: closer view of rooftop modules.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Dirt build-up along module lower edges",
+          "component": "rooftop PV modules, Site C",
+          "description": "Dirt has built up in a band along the lower frame edge of the modules, where rain runs off and leaves grime behind. Edge soiling shades the bottom row of cells and cuts output more than even dust does.",
+          "visual_evidence": "Grey-brown band of dirt along the bottom edge of the glass, plus speckled dust over the rest of the surface.",
+          "extent": "Along the lower edge of 3+ modules",
+          "bbox": [
+            0.2,
+            0.1,
+            1.0,
+            0.62
+          ],
+          "suggested_fix": "Clean the modules, paying attention to the lower edge; check the tilt allows water to run off freely.",
+          "visibility": "clear"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "overall_condition": "Poor",
+    "summary": "This sample covers three solar sites. At Site A, a residential rooftop in Seibersdorf, Austria, a module caught fire in March 2025: the front glass is burned through ({{Burn-through holes}}) and the back is scorched with burn spots along the cell connections ({{Scorched backsheet}}). {{Burn-through holes}} and {{Scorched backsheet}} are the front and back of the same module. The pattern points to an internal electrical fault, so other modules on that roof, from the same model and batch, are at risk. Branches from a nearby tree also hang over that array ({{Tree branches}}). At Site B, a ground-mount farm, tall vegetation is growing under the rows ({{Tall vegetation}}) and DC cables hang loose below the modules ({{DC cables hanging}}). At Site C, a flat roof, the modules carry a layer of dust with heavier dirt along their lower edges ({{Dirt build-up}}, {{Dust and grime}}), which cuts output.",
+    "key_risks": [
+      "{{Burn-through holes}}, {{Scorched backsheet}}: Module fire from an internal fault; the same fault could exist in other modules on the Site A roof.",
+      "{{Tall vegetation}}: Tall, drying vegetation under the rows at Site B is a fire and shading risk.",
+      "{{Dirt build-up}}, {{Dust and grime}}: Soiling at Site C is reducing output every day it stays.",
+      "{{DC cables hanging}}: Loose DC cables at Site B can be damaged by wind, animals or mowers."
+    ],
+    "immediate_actions": [
+      "Site A: keep the affected string isolated; thermal-scan every other module on the roof and check connectors and the inverter's arc-fault settings before switching back on ({{Burn-through holes}}, {{Scorched backsheet}}).",
+      "Send the damaged module for failure analysis and open a warranty claim."
+    ],
+    "next_30_days": [
+      "Site B: mow under all rows and set a regular vegetation schedule ({{Tall vegetation}}).",
+      "Site A: trim the overhanging tree ({{Tree branches}}).",
+      "Site C: clean the modules, paying attention to the lower edges ({{Dirt build-up}}, {{Dust and grime}})."
+    ],
+    "next_90_days": [
+      "Site B: re-secure the hanging cables with UV-rated clips ({{DC cables hanging}}).",
+      "Re-fly all three sites, with a thermal camera at Site A, to confirm fixes."
+    ]
+  },
+  "credits": [
+    "Site A photos: BFV Radkersburg, via Wikimedia Commons (Category: Damaged solar panels), CC BY-SA 2.0. Cropped and annotated.",
+    "Site B footage: Pexels video #4324109 (Pexels License).",
+    "Site C footage: Pexels video #7211102 (Pexels License)."
+  ]
+}

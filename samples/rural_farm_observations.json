@@ -1,0 +1,424 @@
+{
+  "detected_by": "Claude Opus 5.5 (frames reviewed in a Claude Code session, not via API)",
+  "asset_type": "building",
+  "credits": [
+    "Footage: \"Drone footage of a destroyed barn in an abandoned farm\" (Pexels #15439362) and \"Drone footage of an abandoned farm\" (Pexels #15439355), Pexels License."
+  ],
+  "frames": {
+    "frame_0001.jpg": {
+      "scene": "Two concrete-stave silos with metal domes beside the barn.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Hole torn in silo dome",
+          "component": "left silo metal dome",
+          "description": "A panel of the left silo's metal dome has torn open, leaving a hole at the edge of the dome.",
+          "visual_evidence": "Dark gap with bent sheet edges where a dome panel has come away.",
+          "extent": "1 panel, ~1 m",
+          "bbox": [
+            0.3,
+            0.37,
+            0.38,
+            0.49
+          ],
+          "suggested_fix": "Secure or remove loose dome panels before they blow off; if the silo stays, replace the damaged panels.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Heavy rust on silo dome",
+          "component": "right silo metal dome",
+          "description": "The right silo's dome has heavy rust streaks running down most of its panels and the coating has failed.",
+          "visual_evidence": "Orange rust runs between the ribs across the whole dome, bare metal showing.",
+          "extent": "Whole dome",
+          "bbox": [
+            0.57,
+            0.27,
+            0.91,
+            0.5
+          ],
+          "suggested_fix": "Check the dome for thinned or holed panels and loose fasteners; recoat or replace.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Vines covering silos",
+          "component": "both silos",
+          "description": "Vines have grown up the sides of both silos to the domes.",
+          "visual_evidence": "Dense brown vine growth up the stave walls.",
+          "extent": "Most of both silo walls",
+          "bbox": [
+            0.28,
+            0.45,
+            0.92,
+            1.0
+          ],
+          "suggested_fix": "Cut the vines at the base, let them die back, then remove them and inspect the stave walls and hoops underneath.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0002.jpg": {
+      "scene": "Looking down on a silo dome with the damaged barn and sheds behind; a roofless brick silo in the field.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Rusted silo dome with open top hatch",
+          "component": "silo dome",
+          "description": "This dome is heavily rusted and its top hatch is open or missing, letting rain straight into the silo.",
+          "visual_evidence": "Rust-red dome with a black circular opening at the top.",
+          "extent": "Whole dome",
+          "bbox": [
+            0.14,
+            0.47,
+            0.51,
+            0.96
+          ],
+          "suggested_fix": "Close or cap the hatch; inspect and recoat or replace the dome.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Barn roof partly collapsed",
+          "component": "main barn roof beside the silos",
+          "description": "The barn roof next to the silos is broken up, with sheets torn loose and sections fallen in.",
+          "visual_evidence": "Buckled and missing roof sheets, exposed framing and debris on the roof.",
+          "extent": "Large part of the barn roof",
+          "bbox": [
+            0.5,
+            0.5,
+            0.92,
+            0.97
+          ],
+          "suggested_fix": "Keep everyone out of the barn; a structural engineer should decide whether it can be stabilised or must be demolished.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0003.jpg": {
+      "scene": "Overhead view of the collapsed sheds, a parked car, and the roofless brick silo.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Collapsed shed roofs",
+          "component": "open-sided sheds",
+          "description": "Several open-sided sheds have partly collapsed: roof panels have dropped, separated or are lying on the ground.",
+          "visual_evidence": "Rusted red roof sheets at broken angles and gaps between sections, with debris beneath.",
+          "extent": "3-4 sheds",
+          "bbox": [
+            0.32,
+            0.38,
+            0.82,
+            0.84
+          ],
+          "suggested_fix": "Demolish the collapsed sheds or brace them before anyone goes under them; collect the loose sheets.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Roofless brick silo leaning",
+          "component": "free-standing brick silo in the field",
+          "description": "A roofless brick silo stands on its own in the field and appears to lean.",
+          "visual_evidence": "Tall brick cylinder with no top, visibly off vertical against the ground.",
+          "extent": "1 silo, ~10 m tall",
+          "bbox": [
+            0.8,
+            0.17,
+            0.91,
+            0.35
+          ],
+          "suggested_fix": "Fence off a fall zone of at least the silo's height, keep everyone away, and get a structural engineer to decide on emergency bracing or controlled demolition.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0004.jpg": {
+      "scene": "Close pass over a collapsed shed; brick silo in the background; metal sheets in the grass.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Collapsed shed roof lying on the ground",
+          "component": "open-sided shed",
+          "description": "This shed's roof has dropped at one end and rests on the ground at an angle.",
+          "visual_evidence": "Red roof panel sloping from its posts down to the ground; posts leaning.",
+          "extent": "1 shed",
+          "bbox": [
+            0.05,
+            0.37,
+            0.47,
+            0.9
+          ],
+          "suggested_fix": "Demolish or prop the shed; keep people and vehicles from under it.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Loose metal sheets lying in the field",
+          "component": "field next to the sheds",
+          "description": "Loose metal roofing sheets are lying in the grass. Strong wind can throw them.",
+          "visual_evidence": "Grey sheet metal pieces on the ground away from any structure.",
+          "extent": "Several sheets",
+          "bbox": [
+            0.82,
+            0.49,
+            0.99,
+            0.66
+          ],
+          "suggested_fix": "Collect and stack or remove the loose sheets.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0005.jpg": {
+      "scene": "Farm from ground level: barn and silos with damaged roofs, sheds and a wood pile.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": []
+    },
+    "frame_0006.jpg": {
+      "scene": "Gambrel barn and vine-covered silo.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Barn roof sagging with missing roofing",
+          "component": "gambrel barn roof",
+          "description": "The barn's roof sags along the ridge and some roofing is missing.",
+          "visual_evidence": "Uneven ridge line and dark gaps in the roof covering.",
+          "extent": "Upper roof, several bays",
+          "bbox": [
+            0.67,
+            0.16,
+            0.99,
+            0.46
+          ],
+          "suggested_fix": "Keep people out; structural assessment of the roof framing.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0007.jpg": {
+      "scene": "Looking down on the barn roof and silo domes.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Barn roof with many holes and missing sheets",
+          "component": "main barn roof from above",
+          "description": "From above, the barn roof has many holes where sheets are missing, and roofing is torn and folded back.",
+          "visual_evidence": "Dark openings across the rusted roof, sheets peeled back.",
+          "extent": "Most of the roof in view",
+          "bbox": [
+            0.25,
+            0.49,
+            0.61,
+            1.0
+          ],
+          "suggested_fix": "Structural assessment; if kept, re-roof after the frame is repaired.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0008.jpg": {
+      "scene": "Low pass over collapsed shed roofing; the brick silo and a power pole with transformer in the field.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Roofless brick silo leaning",
+          "component": "free-standing brick silo in the field",
+          "description": "The roofless brick silo is clearly leaning off vertical.",
+          "visual_evidence": "Brick cylinder visibly tilted relative to the level ground and fence line.",
+          "extent": "1 silo, ~10 m tall",
+          "bbox": [
+            0.19,
+            0.14,
+            0.31,
+            0.35
+          ],
+          "suggested_fix": "Fence off a fall zone of at least the silo's height, keep everyone away, and get a structural engineer to decide on emergency bracing or controlled demolition.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Rusted and torn roofing on collapsed sheds",
+          "component": "shed roofing",
+          "description": "The shed roofing is heavily rusted, and the sheets on the right are torn, folded and partly collapsed.",
+          "visual_evidence": "Orange rust over the corrugated sheets; crumpled sheets and broken framing on the right.",
+          "extent": "Several sheds",
+          "bbox": [
+            0.0,
+            0.45,
+            1.0,
+            1.0
+          ],
+          "suggested_fix": "Remove the collapsed roofing; the sheds are beyond simple repair.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Power pole with transformer next to derelict sheds",
+          "component": "utility pole in the field",
+          "description": "A power pole with a transformer stands close to the collapsed sheds. If the line is still live, it's a hazard for anyone clearing the site.",
+          "visual_evidence": "Wooden pole with a pole-mounted transformer and lines, a few metres from the sheds.",
+          "extent": "1 pole",
+          "bbox": [
+            0.57,
+            0.1,
+            0.62,
+            0.42
+          ],
+          "suggested_fix": "Ask the utility whether the service is live and have it disconnected before demolition or clearing.",
+          "visibility": "partial"
+        }
+      ]
+    },
+    "frame_0009.jpg": {
+      "scene": "Ground-level view of a silo covered in graffiti; barn in the background.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Graffiti showing trespass on the site",
+          "component": "silo base",
+          "description": "The silo is covered in graffiti, which shows people are getting onto the site despite the dangerous structures.",
+          "visual_evidence": "Spray-painted tags on the lower silo wall.",
+          "extent": "1 silo",
+          "bbox": [
+            0.28,
+            0.0,
+            0.5,
+            0.62
+          ],
+          "suggested_fix": "Fence the site and post warning signs; the collapsing structures make trespass dangerous.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0010.jpg": {
+      "scene": "Looking down past the open top of the brick silo toward the barn and sheds.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Open top of roofless silo",
+          "component": "brick silo top",
+          "description": "The brick silo has no roof; its open top collects rain and vines are growing over the rim, which loosens the brickwork.",
+          "visual_evidence": "Open circular brick rim with vines across it, dark interior.",
+          "extent": "1 silo",
+          "bbox": [
+            0.6,
+            0.64,
+            1.0,
+            1.0
+          ],
+          "suggested_fix": "Fence off a fall zone of at least the silo's height, keep everyone away, and get a structural engineer to decide on emergency bracing or controlled demolition.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0012.jpg": {
+      "scene": "Barn gable end next to the silos.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Hayloft door missing and roof collapse visible inside",
+          "component": "barn gable end",
+          "description": "The hayloft door is gone, and through the opening you can see collapsed roof framing inside. Two small windows lower down are broken out.",
+          "visual_evidence": "Large dark opening at the top of the gable with broken timbers visible inside; two empty window frames below.",
+          "extent": "Gable end and interior roof",
+          "bbox": [
+            0.4,
+            0.47,
+            0.58,
+            0.79
+          ],
+          "suggested_fix": "Board up the openings to keep people and weather out; don't enter until the structure is assessed.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0013.jpg": {
+      "scene": "Inside the barn loft looking along the gambrel roof.",
+      "image_quality": "good",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Daylight through missing roof boards",
+          "component": "barn roof from inside",
+          "description": "Inside the loft, daylight shows through large gaps where roof boards and sheets are missing. Rain is getting in and rotting the rafters.",
+          "visual_evidence": "Bright patches of sky between the rafters and a sunlit pattern on the floor.",
+          "extent": "Many gaps along the roof",
+          "bbox": [
+            0.35,
+            0.05,
+            0.85,
+            0.5
+          ],
+          "suggested_fix": "Structural assessment of rafters for rot; re-roof only if the frame is sound.",
+          "visibility": "clear"
+        },
+        {
+          "label": "Loose metal sheet hanging from the rafters",
+          "component": "barn roof interior",
+          "description": "A loose metal roof sheet is hanging down from the rafters and could fall on anyone below.",
+          "visual_evidence": "Grey sheet hanging at an angle from the top-left rafters.",
+          "extent": "1 sheet",
+          "bbox": [
+            0.18,
+            0.0,
+            0.3,
+            0.18
+          ],
+          "suggested_fix": "Nobody should enter; remove the sheet from a safe position during make-safe work.",
+          "visibility": "clear"
+        }
+      ]
+    },
+    "frame_0014.jpg": {
+      "scene": "Inside the far end of the barn, looking into the sun.",
+      "image_quality": "over_or_under_exposed",
+      "is_thermal": false,
+      "observations": [
+        {
+          "label": "Roof collapsed at far end of barn",
+          "component": "barn roof, far end",
+          "description": "At the far end of the barn the roof has collapsed: rafters are broken and the roof is open to the sky.",
+          "visual_evidence": "Broken rafters and boards hanging down, open sky and branches visible through the roof.",
+          "extent": "Last few bays of the barn",
+          "bbox": [
+            0.55,
+            0.0,
+            1.0,
+            0.45
+          ],
+          "suggested_fix": "Treat the barn as unsafe; structural engineer to decide on demolition.",
+          "visibility": "clear"
+        }
+      ]
+    }
+  },
+  "summary": {
+    "overall_condition": "Critical",
+    "summary": "An abandoned farmstead with a gambrel barn, three stave silos with metal domes, a free-standing brick silo and several open-sided sheds. The buildings are past routine repair and several are actively collapsing. The barn roof has large holes, sagging bays and a collapsed far end ({{Barn roof partly collapsed}}, {{Roof collapsed at far end}}), with a loose metal sheet hanging inside ({{Loose metal sheet hanging}}). The roofless brick silo is leaning noticeably ({{Roofless brick silo leaning}}), and the sheds have collapsed with rusted roofing on the ground ({{Collapsed shed roofs}}, {{Collapsed shed roof lying}}). Graffiti and a parked car show that people are coming onto the site ({{Graffiti}}), and a power pole with a transformer stands next to the collapsed sheds ({{Power pole}}). The main risk is to people, not to the buildings: the priority is to keep everyone off the site and decide which structures to demolish.",
+    "key_risks": [
+      "Collapse of the leaning brick silo onto anyone nearby ({{Roofless brick silo leaning}}).",
+      "Further roof collapse inside the barn and falling sheets ({{Barn roof partly collapsed}}, {{Roof collapsed at far end}}, {{Loose metal sheet hanging}}).",
+      "Trespassers entering dangerous structures ({{Graffiti}}).",
+      "A possibly live electrical service next to demolition work ({{Power pole}}).",
+      "Loose sheets blowing off domes and sheds in high wind ({{Hole torn in silo dome}}, {{Loose metal sheets}})."
+    ],
+    "immediate_actions": [
+      "Fence the whole farmstead and post danger signs; set a fall zone around the leaning silo ({{Graffiti}}, {{Roofless brick silo leaning}}).",
+      "Keep everyone out of the barn and away from the sheds ({{Barn roof partly collapsed}}, {{Collapsed shed roofs}}).",
+      "Ask the utility whether the service at the pole is live and have it disconnected ({{Power pole}})."
+    ],
+    "next_30_days": [
+      "Structural engineer's assessment of every structure: stabilise, dismantle or demolish.",
+      "Collect loose metal sheets and secure or remove loose dome panels ({{Loose metal sheets}}, {{Hole torn in silo dome}}).",
+      "Board up the barn openings ({{Hayloft door}})."
+    ],
+    "next_90_days": [
+      "Carry out the demolition or stabilisation plan, starting with the leaning silo and collapsed sheds.",
+      "If the stave silos are kept, clear the vines and recoat or replace the domes ({{Vines covering silos}}, {{Heavy rust on silo dome}}, {{Rusted silo dome}})."
+    ]
+  }
+}
